@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create account</title>
+</head>
+<body>
+    <h1>create account form</h1>
+    <form>
+        <fieldset>
+            <legend>personal information</legend>
+        </fieldset>
+        <ul>
+            <li>
+                <label for="full name">full name</label>
+                <input type="text" name="name" id="full name" placeholder="Benny Ade">
+                </li>
+            <li>
+                <label for="dob">date of birth</label>
+                <input type="date" name="date" id="dob" required>
+            </li>
+            <li>
+                <label for="address">Home Address</label> <br>
+                <textarea name="address" id="address" cols="30" rows="2" maxlength="20"></textarea>
+                
+            </li>
+            <li>
+                <label for="soo">state of origin</label> <br>
+                <select>
+                    <optgroup label="south">
+                        <option value="og">ogun</option>
+                        <option value="ab">Abia</option>
+                        <option value="an" selected>Anambra</option>
+                        <option value="lg">Lagos</option>
+                        <option value="ak">Akwa-ibom</option>
+                        
+
+                    </optgroup label="North">
+                    <option value="Kd">Kaduna</option>
+                    <option value="aj">Abuja</option>
+                    <option value="pl">Plateau</option>
+                    <option value="ni">Niger</option>
+                    <optgroup>
+
+                    </optgroup>
+                </select>
+            </li>
+            <li>
+                <h3>marital status</h3>
+                <input type="radio" name="status" id="single">
+                <label for="single">single</label>
+
+                <input type="radio" name="status" id="married" checked>
+                <label for="married">married</label>
+
+                <input type="radio" name="status" id="divorced">
+                <label for="divorced">divorced</label>
+
+                <input type="radio" name="status" id="widow">
+                <label for="widow">widow</label>
+            </li>
+            <li>
+                <h3>Religion</h3>
+                <input type="radio" name="status" id="single">
+                <label for="christianity">christianity</label>
+
+                <input type="radio" name="status" id="islam">
+                <label for="islam">islam</label>
+
+                <input type="radio" name="status" id="pegan">
+                <label for="pegan">pegan</label>
+
+                
+            </li>
+            <li>
+                <h3>Gender</h3>
+                <input type="radio" name="status" id="female">
+                <label for="female">female</label>
+
+                <input type="radio" name="status" id="male">
+                <label for="male">male</label> <br> <br>
+            </li>
+            <li>
+                <label for="Email">Email</label> <br> <br>
+                <input type="email" name="email" id="email" placeholder="@gmail.com">
+            </li>
+            <li>
+                <label for="Telephone">Tel</label> <br> <br>
+                <input type="tel" name="number" id="Telephone" placeholder="+234">
+            </li>
+            <li>
+                <h3>Means of identification</h3>
+                <label for="bvn">BVN</label>
+                <input type="file" name="BVN" id="bvn">
+
+                <label for="bvn">National identity</label>
+                <input type="file" name="National identity" id="nin">
+
+                <label for="bvn">voters card</label>
+                <input type="file" name="voters card" id="voters card">
+                
+                
+            </li>
+            <li></li>
+        </ul>
+</form>
+
+</body>
+</html>
